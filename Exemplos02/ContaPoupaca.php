@@ -23,10 +23,7 @@
 					return false;
 				}
 				//retirada permitida
-
 				return true;
 			}		
 	}
-
-
  ?>

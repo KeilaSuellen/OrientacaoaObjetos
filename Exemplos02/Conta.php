@@ -9,6 +9,19 @@
 		var $senha;
 		var $saldo;
 		var $cancelada;
+
+
+		function __construct($agencia, $codigo, $dataDeCriacao, $titular, $senha, $saldo){
+
+			$this->agencia = $agencia;
+			$this->codigo = $codigo;
+			$this->dataDeCriacao = $dataDeCriacao;
+			$this->titular = $titular;
+			$this->senha = $senha;
+			$this->saldo = $saldo;
+		
+			//chamada a outro método da classe
+			}
 		
 		//diminui o saldo em quantia
 		function retirar($quantia)

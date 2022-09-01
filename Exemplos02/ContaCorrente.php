@@ -11,7 +11,7 @@
 		}
 		
 		//método Retirar (sobrescrito) verifica se a $quantia retirada está dentro do limite.
-		function Retirar($quantia)
+		function retirar($quantia)
 		{
 			//imposto sobre movimentação financeira
 			$cpmf = 0.05;
