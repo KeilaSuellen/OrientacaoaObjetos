@@ -5,7 +5,7 @@
         var $Codigo;
         var $Descricao;
         var $Preco;
-        var $Quantidade;
+        var $Quabtidade;
     
 
     function ImprimeEtiqueta()
